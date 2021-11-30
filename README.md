@@ -18,9 +18,15 @@ Print both the values it would be interchanged
 ### Step 6: 
 End the program
 ## PROGRAM:
+```python
+n1 = int(input())
+n2 = int(input())
+n1,n2 = n2,n1
+print('Swapped values are: {} {}'.format(n1,n2))
 
-
-
+```
+## OUTPUT:
+![Git log](.//swappingofx.png)
 ## RESULT:
 Thus the swapping of two values are successfully executed
 
